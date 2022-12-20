@@ -24,3 +24,6 @@ print(2**10)
 print(10 // 3)
 print(10 % 3)
 print(orange // apple)
+"""
+teamdongtan 안에 python_hw 만들고 그안에 Day1_hw.py 안에 기본 연산자 변수 넣어서 push
+"""
