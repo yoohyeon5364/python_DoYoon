@@ -79,15 +79,20 @@ ex) a=[]
 # gogodan(7)
 
 # Q3.짝수(3) ex) 6,4,2
-def jjaksoo(num):
-    결과3 = []
-    for i in range(1, num * 2 + 1):
-        if i % 2 == 0:
-            결과3.append(i)
-    결과3.reverse()
-    print(결과3)
+# def jjaksoo(num):
+#     결과3 = []
+#     for i in range(1, num * 2 + 1):
+#         if i % 2 == 0:
+#             결과3.append(i)
+#     결과3.reverse()
+#     print(결과3)
 
 
-jjaksoo(3)
-jjaksoo(6)
-jjaksoo(4)
+# jjaksoo(3)
+# jjaksoo(6)
+# jjaksoo(4)
+
+# a = [2, 4, 3, 1]
+# a.sort()
+# a.reverse()
+# print(a)
