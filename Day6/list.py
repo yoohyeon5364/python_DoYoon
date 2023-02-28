@@ -39,6 +39,21 @@ ex) a=[]
 내림차순(응용)        
 <응용1> sort()
        reverse()
+
+리스트와 리스트를 합칠때'+' 사용합니다. (4칙연산중 +만 사용 가능)
+ㅡ> 메소드는 extend
+
+리스트를 비울때 'clear' 메소드를 사용합니다.
+
+특정 위치에 값을 추가할때 'insert' 메소드를 사용합니다.
+
+값이 몇번째 있는지 찾을때 'index' 메소드를 사용합니다.
+
+값이 몇개가 있는지 알아볼때 'count' 메소드를 사용합니다.
+
+리스트의 길이를 알고싶을때 'len' 함수를 사용합니다.
+
+
 """
 
 # d = []
@@ -96,3 +111,142 @@ ex) a=[]
 # a.sort()
 # a.reverse()
 # print(a)
+
+# a = [1, 2]
+# b = [3, 4]
+# a.extend(b)
+# print(a)
+
+# d = [100, 200]
+# d.clear()
+# print(d)
+
+# e = [1, 2, 3]
+# e.insert(1, 100)
+# print(e)
+
+# f = [1, 2, 3, 4]
+# print(f.index(3))
+
+# f = [1, 2, 3, 4, 2]
+# print(f.index(2))
+
+# f = [1, 2, 3, 4, 2]
+# print(f.count(2))
+
+# h = [1, 2, 3, 4]
+# print(len(h))
+
+# h.pop()
+# h.remove(1)
+# print(len(h))
+
+# a = ["반나ㅏ냐", "사ㅏ고ㅓㅏ", "오ㄹ ㅔㄴ지"]
+
+# for i in range(len(a)):
+#     print(a[i])
+
+# for i in a:
+#     print(i)
+
+# Q1.
+# fruit = ["orange", "cherry", "watermwlon", "bluberry", "apple"]
+# fruit.sort()
+# fruit.reverse()
+# for i in fruit:
+#     print(i)
+
+# phonenumber = [0, 1, 0, 1, 2, 3, 4, 5, 6, 7]
+# phonenumber.clear()
+# phonenumber.append(0)
+# phonenumber.append(1)
+# phonenumber.append(0)
+# phonenumber.append(9)
+# phonenumber.append(8)
+# phonenumber.append(7)
+# phonenumber.append(6)
+# phonenumber.append(5)
+# phonenumber.append(4)
+# phonenumber.append(3)
+# print(phonenumber)
+
+# 함수랄까 = []
+# for i in range(1, 21):
+#     if i % 3 == 0:
+#         함수랄까.append(i)
+#         함수랄까.sort()
+#     함수랄까.reverse()
+# print(함수랄까)
+
+# def GCD ():
+#         for i in range(x,y):
+
+# a = [10, 20, 30]
+# a.insert(1, 100)
+# a.insert(3, 200)
+# print(a)
+
+# fruit = ["orange", "banana", "cherry", "apple"]
+# print(fruit[0])
+# print(fruit[1])
+# print(fruit[2])
+# print(fruit[3])
+
+# fruit1 = ["orange", "banana", "cherry", "apple"]
+# fruit1.sort()
+# print(fruit1[0])
+# print(fruit1[1])
+# print(fruit1[2])
+# print(fruit1[3])
+
+# fruit2 = ["orange", "banana", "cherry", "apple"]
+# fruit2.sort()
+# fruit2.reverse()
+# print(fruit2[0])
+# print(fruit2[1])
+# print(fruit2[2])
+# print(fruit2[3])
+
+# fruit = ["orange", "banana", "cherry", "apple"]
+# fruit.append("watermelon")
+# fruit.append("blueberry")
+# fruit.append("tomato")
+# fruit.sort()
+# fruit.reverse()
+# for i in range(len(fruit)):
+#     print(fruit[i])
+
+# fruits = ["orange", "banana", "cherry", "apple"]
+# for fruit in fruits:
+#     print(fruit)
+
+# a = []
+# for i in range(1, 6):
+#     a.append(i)
+# print(a)
+# for i in range(len(a)):
+#     print(a[i])
+
+b = []
+for i in range(1, 21):
+    if i % 3 == 0:
+        b.append(i)
+print(b)
+b.sort
+b.reverse
+for i in range(len(b)):
+
+    print(b[i])
+
+c = []
+for i in range(1, 101):
+    if i % 3 == 0:
+        if i % 4 == 0:
+            c.append(i)
+c.sort()
+c.reverse()
+print(c)
+
+c.sort()
+for i in range(len(c)):
+    print(c[i])
